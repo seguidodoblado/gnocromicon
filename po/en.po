@@ -1,0 +1,74 @@
+# English translations for gnocromicon package.
+# Copyright (C) 2026 THE gnocromicon'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnocromicon package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnocromicon 0.1.0\n"
+"Report-Msgid-Bugs-To: jose.antonio.seguido@gmail.com\n"
+"POT-Creation-Date: 2026-11-17 13:17+0100\n"
+"PO-Revision-Date: 2026-11-17 13:17+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/gnocromicon/ui/preferences.py:16 src/gnocromicon/ui/preferences.py:60
+msgid "Sistema"
+msgstr "System"
+
+#: src/gnocromicon/ui/preferences.py:32 src/gnocromicon/ui/window.py:36
+msgid "Preferencias"
+msgstr "Preferences"
+
+#: src/gnocromicon/ui/preferences.py:50
+msgid "Idioma"
+msgstr "Language"
+
+#: src/gnocromicon/ui/preferences.py:58
+msgid "Tema"
+msgstr "Theme"
+
+#: src/gnocromicon/ui/preferences.py:60
+msgid "Claro"
+msgstr "Light"
+
+#: src/gnocromicon/ui/preferences.py:60
+msgid "Oscuro"
+msgstr "Dark"
+
+#: src/gnocromicon/ui/preferences.py:69
+msgid "Los cambios se aplican reiniciando la aplicación."
+msgstr "Changes are applied by restarting the application."
+
+#: src/gnocromicon/ui/preferences.py:76
+msgid "Aplicar y reiniciar"
+msgstr "Apply and restart"
+
+#: src/gnocromicon/ui/window.py:25
+msgid "Libros de rol de mesa"
+msgstr "Tabletop role-playing books"
+
+#: src/gnocromicon/ui/window.py:28
+msgid "La identificación de libros llegará en próximas versiones."
+msgstr "Book identification will arrive in upcoming versions."
+
+#: src/gnocromicon/ui/window.py:37
+msgid "Acerca de Gnocromicón"
+msgstr "About Gnocromicón"
+
+#: src/gnocromicon/ui/window.py:52
+msgid "Identifica y cataloga libros de rol de mesa"
+msgstr "Identify and catalog tabletop role-playing books"
+
+#: src/gnocromicon/ui/window.py:54
+msgid "github.com/seguidodoblado/gnocromicon"
+msgstr "github.com/seguidodoblado/gnocromicon"
+
+#: src/gnocromicon/ui/window.py:58
+msgid "translator-credits"
+msgstr "José Antonio Seguido Doblado <jose.antonio.seguido@gmail.com>"

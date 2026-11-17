@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gnocromicon"
+version = "0.1.0"
+description = "Identifica y cataloga libros de rol de mesa"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.11"
+authors = [
+    { name = "Jose Antonio Seguido Doblado" },
+]
+dependencies = [
+    "PyGObject>=3.46",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+gnocromicon = "gnocromicon.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gnocromicon"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

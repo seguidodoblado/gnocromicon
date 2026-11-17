@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnocromicon package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnocromicon 0.1.0\n"
+"Report-Msgid-Bugs-To: jose.antonio.seguido@gmail.com\n"
+"POT-Creation-Date: 2026-11-17 13:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gnocromicon/ui/preferences.py:16 src/gnocromicon/ui/preferences.py:60
+msgid "Sistema"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:32 src/gnocromicon/ui/window.py:36
+msgid "Preferencias"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:50
+msgid "Idioma"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:58
+msgid "Tema"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:60
+msgid "Claro"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:60
+msgid "Oscuro"
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:69
+msgid "Los cambios se aplican reiniciando la aplicación."
+msgstr ""
+
+#: src/gnocromicon/ui/preferences.py:76
+msgid "Aplicar y reiniciar"
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:25
+msgid "Libros de rol de mesa"
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:28
+msgid "La identificación de libros llegará en próximas versiones."
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:37
+msgid "Acerca de Gnocromicón"
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:52
+msgid "Identifica y cataloga libros de rol de mesa"
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:54
+msgid "github.com/seguidodoblado/gnocromicon"
+msgstr ""
+
+#: src/gnocromicon/ui/window.py:58
+msgid "translator-credits"
+msgstr ""
