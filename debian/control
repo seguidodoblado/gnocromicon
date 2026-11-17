@@ -1,0 +1,14 @@
+Source: gnocromicon
+Section: gnome
+Priority: optional
+Maintainer: Jose Antonio Seguido Doblado <jose.antonio.seguido@gmail.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), gettext
+
+Package: gnocromicon
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-gi, gir1.2-gtk-4.0 (>= 4.10)
+Maintainer: Jose Antonio Seguido Doblado <jose.antonio.seguido@gmail.com>
+Homepage: https://github.com/seguidodoblado/gnocromicon
+Description: Identifica y cataloga libros de rol de mesa
+ Aplicación GTK para identificar y catalogar libros de rol de mesa.

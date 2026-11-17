@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gnocromicón
+Comment=Identifica y cataloga libros de rol de mesa
+Exec=/usr/bin/gnocromicon
+Icon=gnocromicon
+StartupWMClass=gnocromicon
+Type=Application
+Categories=Office;
+Terminal=false
