@@ -18,7 +18,7 @@ APPLICATION_ID = "io.github.seguidodoblado.Gnocromicon"
 GLib.set_prgname("gnocromicon")
 
 
-class GnocromicónApplication(Gtk.Application):
+class GnocromiconApplication(Gtk.Application):
     def __init__(self) -> None:
         super().__init__(application_id=APPLICATION_ID)
         self.system_theme: str | None = None
@@ -54,7 +54,7 @@ def main() -> int:
         os.environ.pop("LANGUAGE", None)
     i18n.install()
     logsetup.setup()
-    app = GnocromicónApplication()
+    app = GnocromiconApplication()
     return app.run(sys.argv)
 
 
